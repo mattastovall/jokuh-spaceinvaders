@@ -235,7 +235,7 @@ Particles.propTypes = {
 
 function Model({ modelRef, modelVisible }) {
   const { mouse, camera } = useThree();
-  const gltf = useLoader(GLTFLoader, '/public/jokuh_ship_y.gltf');
+  const gltf = useLoader(GLTFLoader, '/jokuh_ship_y.gltf');
 
   // Initialize velocity and drag
   const velocity = useRef(new Vector3(0, 0, 0));
