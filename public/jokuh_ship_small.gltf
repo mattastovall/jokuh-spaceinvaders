@@ -15,17 +15,22 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"Cube",
+			"name":"Cube.001",
 			"rotation":[
-				0.7071068286895752,
-				0,
-				0,
-				0.7071068286895752
+				-0.6481273174285889,
+				-0.2827143967151642,
+				0.2827032208442688,
+				0.6481376886367798
 			],
 			"scale":[
-				1.6906007528305054,
-				0.3341791331768036,
-				1
+				-0.029603859409689903,
+				-0.3872794806957245,
+				-0.526427149772644
+			],
+			"translation":[
+				0,
+				-2.179837465286255,
+				0.46112868189811707
 			]
 		}
 	],
@@ -47,7 +52,7 @@
 	],
 	"meshes":[
 		{
-			"name":"Cube",
+			"name":"Cube.003",
 			"primitives":[
 				{
 					"attributes":{
@@ -65,68 +70,68 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":119,
+			"count":184,
 			"max":[
-				2.832357168197632,
-				2.5593254566192627,
-				3.377411127090454
+				58.43938446044922,
+				1.2280356884002686,
+				3.6719589233398438
 			],
 			"min":[
-				-2.832357168197632,
-				-1,
-				-2.0480034351348877
+				-104.67259216308594,
+				-1.1010353565216064,
+				-5.486710071563721
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":119,
+			"count":184,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":119,
+			"count":184,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":192,
+			"count":264,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":1428,
+			"byteLength":2208,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1428,
-			"byteOffset":1428,
+			"byteLength":2208,
+			"byteOffset":2208,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":952,
-			"byteOffset":2856,
+			"byteLength":1472,
+			"byteOffset":4416,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":384,
-			"byteOffset":3808,
+			"byteLength":528,
+			"byteOffset":5888,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":4192,
-			"uri":"jokuh_ship_y.bin"
+			"byteLength":6416,
+			"uri":"jokuh_ship_small.bin"
 		}
 	]
 }
