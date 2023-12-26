@@ -236,7 +236,6 @@ Particles.propTypes = {
 function Model({ modelRef, modelVisible }) {
   const { mouse, camera } = useThree();
   const gltf = useLoader(GLTFLoader, '/jokuh_ship_y.gltf');
-
   // Initialize velocity and drag
   const velocity = useRef(new Vector3(0, 0, 0));
   const drag = 0.02; // Adjust this value to change the drag effect
